@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github/mkdemir/stringutils"
+	"github.com/mkdemir/stringutils"
 )
 
 func TestReverse(t *testing.T) {
