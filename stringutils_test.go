@@ -13,7 +13,7 @@ func TestReverse(t *testing.T) {
 		want  []string
 	}{
 		"none Turkish letters": {
-			input: []string{"hello", "this is vigo"},
+			input: []string{"hello", "this is mkdemir"},
 			want:  []string{"olleh", "ogiv si siht"},
 		},
 		"with Turkish letters": {
@@ -53,6 +53,6 @@ func BenchmarkReverse(b *testing.B) {
 }
 
 func ExampleReverse() {
-	fmt.Println(stringutils.Reverse("vigo"))
+	fmt.Println(stringutils.Reverse("mkdemir"))
 	// Output: ogiv
 }
